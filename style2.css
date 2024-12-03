@@ -56,3 +56,9 @@ a{
 h2{
     font-size: 30px;
 }
+@media (max-width:400px){
+    .box{
+        display:flex;
+        flex-direction:column;
+    }
+}
