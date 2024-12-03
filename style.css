@@ -95,7 +95,7 @@ p{
     font-size: 20px;
     
 }
-@media(max-width:300px){
+@media(max-width:300px min-width:400px){
     .navigation_bar{
         display: flex;
         flex-direction: column;
