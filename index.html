@@ -5,44 +5,304 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Navyashree V Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <div class="container">
-        <nav class="navigation_bar">
-            <ul id="left_nav">
-                <li>Navyashree V</li>
-            </ul>
-            <ul id="right_nav">
-                <li>
-                    <a href="Navyashree_V_Resume.docx">Resume</a>
-                </li>
-                <li><a href="index2.html">Contact</a></li>
-                <li><a href="index3.html">Achivements</a></li>
-
-            </ul>
-        </nav>
-        <main class="main_class">
-            <div class="left_box">
-                <img src="profile_picture.jpg" alt="Navya">
-            </div>
-            <div class="right_box">
-                <h1>I'm Navyashree,</h1><br>
-                <p>A motivated student with a deep passion for coding, problem-solving, and web development. </p><br>
-                <p>I am currently focused on enhancing my problem-solving skills through competitive programming and actively participating in coding challenges. My goal is to build a strong foundation in Data Structures and Algorithms (DSA), which I believe is essential for efficient coding and tackling real-world problems.</p>
-                 <p>At the same time, I am expanding my expertise in web development, with the aim of becoming a full-stack developer.</p>
-                 <p>2nd year Engineering Student at BMSIT,Banglore</p>
-                <p>I am also serving as a SIG commitee Vice Head of C++ in Coding club,BMSIT</p>
-                <br>
-                <a href="https://www.linkedin.com/in/navyashree-v-858b78292/"><img src="linkedin.png" alt="linkedin"></a>
-                <a href="https://www.instagram.com/navya.shree.24/profilecard/?igsh=MXQ5bXdiYTM3NXJ3dA=="><img src="instagram.png" alt="instagram"></a>
-            </div>
-            
-       
-
-        </main>
-        
-            
-        
+    <!-- Animated Background -->
+    <div class="animated-bg">
+        <div class="bg-circle"></div>
+        <div class="bg-circle"></div>
+        <div class="bg-circle"></div>
+        <div class="bg-circle"></div>
+        <div class="bg-circle"></div>
     </div>
+
+    <!-- Navigation -->
+    <nav class="navigation_bar">
+        <div class="nav-container">
+            <div class="logo" id="left_nav">
+                <span class="logo-text">Navyashree V</span>
+            </div>
+            <ul id="right_nav" class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="Navyashree_V_Resume.docx" class="nav-link resume-btn" download>Resume</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <div class="profile-image-container">
+                <div class="image-wrapper">
+                    <img src="profile_pic.jpeg" alt="Navyashree V" class="profile-img">
+                    <div class="image-glow"></div>
+                </div>
+            </div>
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="greeting">Hi, I'm</span>
+                    <span class="name">Navyashree V</span>
+                </h1>
+                <p class="hero-subtitle typing-animation">Full-Stack Developer & Problem Solver</p>
+                <p class="hero-description">
+                    A motivated student with a deep passion for coding, problem-solving, and web development.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#about" class="btn btn-primary">Learn More</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/navyashree-v-858b78292/" target="_blank" class="social-link" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/navya24shree" target="_blank" class="social-link" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="fade-in-up">
+                        I am currently focused on enhancing my problem-solving skills and actively participating in 
+                        coding challenges. My goal is to build a strong foundation in Data Structures and Algorithms (DSA), 
+                        which I believe is essential for efficient coding and tackling real-world problems.
+                    </p>
+                    <p class="fade-in-up">
+                        At the same time, I am expanding my expertise in web development, with the aim of becoming a 
+                        full-stack developer. I love creating beautiful, functional websites and applications that make 
+                        a difference.
+                    </p>
+                    <div class="about-details fade-in-up">
+                        <div class="detail-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div>
+                                <h3>Education</h3>
+                                <p>3rd year Engineering Student at BMSIT, Bangalore</p>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-briefcase"></i>
+                            <div>
+                                <h3>Position</h3>
+                                <p>Executive head of Epoch Society, BMSIT</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2 class="section-title">Skills & Expertise</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <h3>Frontend</h3>
+                    <p>HTML, CSS, JavaScript,React JS</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Programming</h3>
+                    <p>C++, DSA, Problem Solving</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>Full-Stack Development</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Backend</h3>
+                    <p>MYSQL, Node.js</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card" data-github="https://github.com/navya24shree/portfolio">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" target="_blank" onclick="event.stopPropagation();">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="https://github.com/navya24shree/portfolio" class="project-link" target="_blank" onclick="event.stopPropagation();">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <img src="portfolio.png" alt="Portfolio Website Screenshot" class="project-screenshot">
+                    </div>
+                    <div class="project-content">
+                        <h3>Portfolio website</h3>
+                        <p>A modern portfolio showcasing skills, projects, and contact information with smooth animations and a clean design.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-github="https://github.com/navya24shree/currency-exchange-calculator">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" target="_blank" onclick="event.stopPropagation();">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="https://github.com/navya24shree/currency-exchange-calculator" class="project-link" target="_blank" onclick="event.stopPropagation();">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <img src="desktopss.png" alt="Currency Exchange Calculator Screenshot" class="project-screenshot">
+                    </div>
+                    <div class="project-content">
+                        <h3>Currency Exchange calculator</h3>
+                        <p>A simple and responsive web app built with HTML, CSS, and JavaScript. It uses the Fetch API to retrieve real-time exchange rates from a currency API and allows users to convert between different currencies instantly.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-github="https://github.com/navya24shree/tic-tac-toe">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" target="_blank" onclick="event.stopPropagation();">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="https://github.com/navya24shree/tic-tac-toe" class="project-link" target="_blank" onclick="event.stopPropagation();">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <img src="tic-tac-toess.png" alt="Tic Tac Toe Game Screenshot" class="project-screenshot">
+                    </div>
+                    <div class="project-content">
+                        <h3>Tic Tac Toe game</h3>
+                        <p>A simple and interactive Tic Tac Toe game that implements core game logic, win/draw detection, and smooth user interactions for an engaging gameplay experience.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-github="https://github.com/navya24shree/Campus-Event-Management-System">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" target="_blank" onclick="event.stopPropagation();">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="https://github.com/navya24shree/Campus-Event-Management-System" class="project-link" target="_blank" onclick="event.stopPropagation();">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <img src="image.png" alt="Campus Event Management System Screenshot" class="project-screenshot">
+                    </div>
+                    <div class="project-content">
+                        <h3>Campus Event Management System</h3>
+                        <p>A full-stack web application that streamlines campus event creation, registration, and feedback using React, Node.js, Express, and MySQL, featuring role-based authentication, an admin dashboard, and a responsive modern UI.</p>
+                        <div class="project-tags">
+                            <span class="tag">React js</span>
+                            <span class="tag">Express</span>
+                            <span class="tag">MySQL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <p class="contact-text">I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.</p>
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">
+                                <i class="fas fa-user"></i>
+                                Name
+                            </label>
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">
+                                <i class="fas fa-envelope"></i>
+                                Email
+                            </label>
+                            <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">
+                                <i class="fas fa-comment"></i>
+                                Message
+                            </label>
+                            <textarea id="message" name="message" rows="5" placeholder="Your message here..." required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Navyashree V. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
